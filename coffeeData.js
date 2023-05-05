@@ -16,6 +16,8 @@
 
 //** First we will clean the numbers that are not strings in n the coffeeMenu using forEach()*/
 
+
+
 const coffeeMenu = [
     {
         name: "cappuccino",
@@ -141,3 +143,4 @@ coffeeMenu.forEach((coffeeMenu) =>{
     }
 })
 
+module.exports = coffeeMenu;
