@@ -143,4 +143,17 @@ coffeeMenu.forEach((coffeeMenu) =>{
     }
 })
 
+//** Finally use the filter and includes method to get drinks that are seasonal and add imported with beans beside them... */
+
+const result = coffeeMenu.filter(element => element.seasonal)
+
+console.log(filter)
+
+
+
+
+
+
+
 module.exports = coffeeMenu;
+
